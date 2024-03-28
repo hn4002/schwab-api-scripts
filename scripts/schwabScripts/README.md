@@ -1,12 +1,12 @@
 These are the four scripts in this directory for the initial testing of Schwab API (in that sequence):
 
-# get_token.py
+# do_app_auth_n_get_refresh_token.py
 
-This script does OAuth2 authorization for the Schwab API. 
-It uses the app_id and app_secret to get the refresh token. 
+This script does OAuth2 authorization for the Schwab API.
+It uses the app_id and app_secret to do the app authroization and get the refresh token.
 The refresh token is saved in the specified file.
 
-# refresh_token.py
+# get_access_token.py
 
 This script uses the refresh token to get the access token.
 It reads the refresh token from the specified file.
