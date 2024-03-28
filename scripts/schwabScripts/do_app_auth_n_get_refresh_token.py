@@ -44,7 +44,6 @@ def main():
     print(f"Paste the url printed above in your browser. Login using the Schwab Brokerage login, accept the 'Trader API End "
           f"User Terms and Conditions' agreement and approve the  accounts.\nOnce it returns back to your callback url, "
           f"copy and paste the full url here quickly and press enter.\nRedirected url: ")
-    #redirect_url_with_token = 'https://127.0.0.1/?code=C0.notArealToken.sdsdfoiusdf_sd98sdfls%40&session=guid-key-goes-here-unique-values'
     redirect_url_with_token = input()
 
     print(f"Read url from input = {redirect_url_with_token}")
