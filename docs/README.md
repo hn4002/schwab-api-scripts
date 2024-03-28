@@ -16,6 +16,14 @@
 * Market Data APIs
 * API access approval (may take couple of weeks) and applicatino approval (take about 3 business days)
 
+# Known Issues
+
+These are the current known issues. Hopefully the API team can fix these bugs on a timely manner.
+
+1. The order management APIs are currently does not work well with ETFs. Once a order is created for an ETF, the get order or get transaction does not include 'symbol' information.
+
+
+
 # Troubleshooting
 
 **Q: Application creation failure**
@@ -34,7 +42,8 @@ Make surre to include the following header in your request:
 
 The response is compressed. You have to use proper library with proper option to uncompress the response. 
 * Python - `requests` module does automatic uncompress whenever needed
-* Curl command - Use `--compress` option to atuomatically uncompress the response if needed 
+* Curl command - Use `--compress` option to atuomatically uncompress the response if needed
+ 
 
 # Communication Updates
 
