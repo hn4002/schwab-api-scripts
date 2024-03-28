@@ -2,7 +2,7 @@
 
 * https://developer.schwab.com/
 
-# Schwab API Status
+# Status
 
 **Following features are missing**
 
@@ -16,7 +16,27 @@
 * Market Data APIs
 * API access approval (may take couple of weeks) and applicatino approval (take about 3 business days)
 
-# Schwab API Communication Updates
+# Troubleshooting
+
+**Q: Application creation failure**
+
+1. Make sure you are not putting "/" at the end of the callback url.
+2. Make sure you are not using "https://localhost" for the callback url.
+3. This callback url should work: "https://127.0.0.1"
+
+**Q: Market data API is returning empty response**
+
+Make surre to include the following header in your request:
+* "Schwab-Client-CorrelId": "dummy"
+* Ideally, you should put a GUID string for its value, but putting "dummy" should also work.
+
+**Q: Market data API is returning binary response**
+
+The response is compressed. You have to use proper library with proper option to uncompress the response. 
+* Python - `requests` module does automatic uncompress whenever needed
+* Curl command - Use `--compress` option to atuomatically uncompress the response if needed 
+
+# Communication Updates
 
 **3/28**
 
