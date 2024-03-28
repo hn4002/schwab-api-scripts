@@ -18,6 +18,10 @@
 
 # Schwab API Communication Updates
 
+**3/28**
+
+We will be releasing streaming API documentation soon as well, it most likely will be post the initial API release, I do not have an exact date when we will be uploading streaming API documentation.
+
 **3/27**
 
 With the Schwab Trader API, refresh tokens are valid for 7 days, or until they are invalidated (i.e. user password reset). 
