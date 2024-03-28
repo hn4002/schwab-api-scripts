@@ -27,13 +27,8 @@ def main():
 
     # App authorization
     app_auth_url = 'https://api.schwabapi.com/v1/oauth/authorize'
-    query_params = {
-        'client_id' : client_id,
-        'redirect_uri' : redirect_uri
-    }
     url = f"{app_auth_url}?client_id={client_id}&redirect_uri={redirect_uri}"
     print(f"\nCalling Url: {url}")
-    #response = requests.get(app_auth_url, params = query_params)
     response = requests.get(url)
     print(f"response.code is {response.status_code}")
     print(f"response.text is {response.text}")
