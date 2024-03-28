@@ -1,7 +1,8 @@
 #!/opt/homebrew/bin/python3
 
-# This script does OAuth2 authorization for the Schwab API. It uses the app_id and app_secret to get the
-# refresh token. The refresh token is saved in the specified file.
+# This script does OAuth2 authorization for the Schwab API.
+# It uses the app_id and app_secret to do the app authroization and get the refresh token.
+# The refresh token is saved in the specified file.
 
 import json
 import os
