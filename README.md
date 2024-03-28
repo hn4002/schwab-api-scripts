@@ -5,3 +5,10 @@ The sensitive info has been "externalized" into a different file. The file is `l
 
 The scripts to test the OAUTH flow and to test some functional APIs are in `scripts/schwabScripts` directory.
 
+# References
+
+Schwab API updates
+* [Schwab API Progress Tracking](docs/README.md)
+
+Schwab API Wrapper 
+* https://github.com/alexgolec/schwab-api
