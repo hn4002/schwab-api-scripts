@@ -10,8 +10,8 @@ class SchwabSettings(object):
         self.SCHWAB_APP_ID = "DUMMYADFAJDFAFDKJFAFHAKF"
         self.SCHWAB_APP_SECRET = "DUMMYABCDEFADFJLAFDA"
         self.SCHWAB_REDIRECT_URI = "https://127.0.0.1:8080"
-        self.SCHWAB_TOKEN_PATH = "/usr/local/token.json"
-        self.SCHWAB_REFRESH_TOKEN_PATH = "/usr/local/refresh_token.json"
+        self.SCHWAB_TOKEN_PATH = "/usr/local/schwab/token.json"
+        self.SCHWAB_REFRESH_TOKEN_PATH = "/usr/local/schwab/refresh_token.json"
 
         self.SCHWAB_ACCOUNT_ID = "123456789"
 
