@@ -32,6 +32,10 @@ These are the current known issues. Hopefully the API team can fix these bugs on
 2. Make sure you are not using "https://localhost" for the callback url.
 3. This callback url should work: "https://127.0.0.1"
 
+**Q: For "App Authorization" when you paste the url in the browser, you get "we are unable to complete your request.
+
+This most likely is becuase of url encoding of the the redirect uri. Try to paste the url without url encoding like this: `&redirect_uri=https://127.0.0.1:8080`
+
 **Q: Market data API is returning empty response**
 
 Make surre to include the following header in your request:
