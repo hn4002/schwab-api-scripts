@@ -14,13 +14,13 @@
 * Authentication APIs (OAuth) and related services
 * Account & Order Management APIs
 * Market Data APIs
-* API access approval (may take couple of weeks) and applicatino approval (take about 3 business days)
+* API access approval (takes about 5 business days) and the application approval (takes about 3 business days)
 
 # Known Issues
 
 These are the current known issues. Hopefully the API team can fix these bugs on a timely manner.
 
-1. The order management APIs are currently does not work well with ETFs. Once a order is created for an ETF, the get order or get transaction does not include 'symbol' information.
+1. The order management APIs currently do not work well with ETFs. Once a order is created for an ETF, the get order or the get transaction does not include 'symbol' information.
 
 
 
