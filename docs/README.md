@@ -51,6 +51,11 @@ The response is compressed. You have to use proper library with proper option to
 
 # Communication Updates
 
+**4/2**
+
+ You DO NOT need to add the market data if you have an Ready to Use app.
+ Once you create an app in the portal, it CAN NOT be deleted ever.
+
 **3/28**
 
 We will be releasing streaming API documentation soon as well, it most likely will be post the initial API release, I do not have an exact date when we will be uploading streaming API documentation.
