@@ -51,6 +51,12 @@ The response is compressed. You have to use proper library with proper option to
 
 # Communication Updates
 
+**4/21**
+
+The WebSocket based streaming API has not been released to production at this time, we are planning on releasing the streamer API in the near future. Documentation for the streaming API will also be posted to the Developer Portal as it becomes available.
+ 
+Certain account types like Joint Tenant accounts, as well as any accounts that you are listed as an 'authorized user', are not currently supported by the Trader API, however; there is an overnight update scheduled to take place on 04/29/24 that should enable access to the API for a majority of these types of account, which should hopefully resolve this issue for you. However, please be sure to keep in mind that all dates mentioned are tentative and may still be subject to change. In this case it is unlikely that the update will be delayed, but there is always a possibility with these types of things.
+
 **4/2**
 
  You DO NOT need to add the market data if you have an Ready to Use app.
