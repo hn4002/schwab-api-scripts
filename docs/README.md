@@ -23,6 +23,14 @@ These are the current known issues. Hopefully the API team can fix these bugs on
 1. The order management APIs currently do not work well with ETFs. Once a order is created for an ETF, the get order or the get transaction does not include 'symbol' information.
 
 
+# FAQ
+
+**Is there any rate limit**
+
+I just called get_quote api 300 times. I didn't notice any rate limit. It took 68.47 secs. 228 ms/call. 22 ms is latency to api.schwabapi.com from my computer, so they are taking 206 ms to process request for get_quote.  
+
+We should code our app to expect rate limit.  The Schwab API team is lagging on adding the features itself, so they may not have time to add rate limit to their APIs yet.
+
 
 # Troubleshooting
 
