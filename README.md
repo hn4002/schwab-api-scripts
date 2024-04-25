@@ -11,4 +11,13 @@ Schwab API updates
 * [Schwab API Progress Tracking](docs/README.md)
 
 Schwab API Wrapper 
-* https://github.com/alexgolec/schwab-api
+* Github - https://github.com/alexgolec/schwab-api
+* Discord - https://discord.com/channels/720378361880248621/1062730209943629915
+
+Other Links
+* Discussion on Redit - https://www.reddit.com/r/tdameritrade/comments/1bqv30q/api_update/
+
+Tyler Bowers' Stuffs:
+* Discord - https://discord.com/channels/1076596998150561873/1076597803427561492
+* YouTube Video - https://www.youtube.com/watch?v=kHbom0KIJwc
+* Github - https://github.com/tylerebowers/Schwab-API-Python
