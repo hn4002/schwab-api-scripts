@@ -7,6 +7,10 @@ The scripts to test the OAUTH flow and to test some functional APIs are in `scri
 
 # Links
 
+Resources from Schwab 
+* Schwab Developer Portal - https://developer.schwab.com/home
+* The (Unofficial) Guide to Charles Schwab’s Trader APIs - https://www.reddit.com/r/Schwab/comments/1c2ioe1/the_unofficial_guide_to_charles_schwabs_trader/ 
+
 Schwab API updates
 * [Schwab API Progress Tracking](docs/README.md)
 
