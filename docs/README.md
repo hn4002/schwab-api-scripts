@@ -4,10 +4,9 @@
 
 # Status
 
-**Following features are missing**
+**Following TDA API features have not been released by Schwab API team**
 
 * Streaming APIs
-* Support for Joint Account, IRA, Roth, PCRA
 
 **Folllwing features have been released**
 
@@ -15,6 +14,7 @@
 * Account & Order Management APIs
 * Market Data APIs
 * API access approval (takes about 5 business days) and the application approval (takes about 3 business days)
+* Support for joint accounts and authorized accounts
 
 # Known Issues
 
