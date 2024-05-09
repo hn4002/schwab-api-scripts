@@ -62,6 +62,10 @@ The response is compressed. You have to use proper library with proper option to
 **5/8**
 
 Is your Schwab account enabled for trading with thinkorswim (tos)? If your account has not yet been enabled for tos, it will not have order entry or Account Access capabilities through the Trader API, which would cause any Place Order requests to fail. (Only Market Data requests would be available for accounts not enabled for tos.)
+
+To see if your account still needs to be enabled for trading on thinkorswim, you would need to login online (Schwab.com), navigate to Trade > Trading Platforms, click 'Learn how to enable thinkorswim', and complete the agreement steps.
+ 
+Schwab's enablement process happens overnight for most account types and will be ready in advance of market open. Once enabled, you should be able to send order requests through using the API.
  
 
 **4/21**
