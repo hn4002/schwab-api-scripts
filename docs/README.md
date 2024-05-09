@@ -59,6 +59,11 @@ The response is compressed. You have to use proper library with proper option to
 
 # Communication Updates
 
+**5/8**
+
+Is your Schwab account enabled for trading with thinkorswim (tos)? If your account has not yet been enabled for tos, it will not have order entry or Account Access capabilities through the Trader API, which would cause any Place Order requests to fail. (Only Market Data requests would be available for accounts not enabled for tos.)
+ 
+
 **4/21**
 
 The WebSocket based streaming API has not been released to production at this time, we are planning on releasing the streamer API in the near future. Documentation for the streaming API will also be posted to the Developer Portal as it becomes available.
