@@ -59,6 +59,12 @@ The response is compressed. You have to use proper library with proper option to
 
 # Communication Updates
 
+**5/22**
+
+Q: In the Schwab API, some of the API requests need  account_hash as a parameter instead of an account number. My question is that as an api-user, can we save the account_hash for a given account number permanently in a database or in a file on disk and put the account_hash in our on-disk configs? Can we assume that the account number to account_hash mapping is static and will not change? If it changes, then when does it change?
+
+A: The account hash_value is going to stay the same for each application. That means if you tried running the get/accounts/accountnumber endpoint on the dev portal you would get a different hash_value from one that was generated within your own personal app that you built out. Neither of those will ever change though. 
+
 **5/8**
 
 Is your Schwab account enabled for trading with thinkorswim (tos)? If your account has not yet been enabled for tos, it will not have order entry or Account Access capabilities through the Trader API, which would cause any Place Order requests to fail. (Only Market Data requests would be available for accounts not enabled for tos.)
